@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+background-color: #9BC1DC;
+}
+
 .navbar {
     color: black;
     background-color: #1D70A2;
@@ -17,10 +21,11 @@
     margin: 0 auto;
 }
 
-.navbar-container ul {
+.navbar-container > ul {
     list-style: none;
     display: flex;
     gap: 1rem;
+    margin-left: 500px;;
 }
 
 .navbar-item {
@@ -30,6 +35,8 @@
 .navbar-item a {
     color: white;
     text-decoration: none;
+    font-family: Oswald;
+    font-size: 20px;
 }
 
 /*content*/
@@ -51,8 +58,15 @@
     height: 10vh;
 }
 .title >h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
     text-align: center;
-    background-color: lightgrey;
+    background-color: #1D70A2;
+    border-radius: 7px ;
+    height: 8vh;
+    color:white
 }
 .image{
     width: 50%;
@@ -61,8 +75,20 @@
 .content{
     width: 50%;
     height: 40vh;
-    background-color: lightgray;
+    background-color: #1D70A2;
+    color: white;
+    font-size: 20px;;
 }
 .content > p{
     margin: 1vw;
+    font-family: Open Sans;
 }
+
+body {
+    margin: 0%;
+}
+
+.header {
+    font-family: Oswald;
+}
+
