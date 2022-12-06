@@ -19,19 +19,31 @@ background-color: #9BC1DC;
 
 .navbar-container {
     margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .navbar-container > ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
     gap: 1rem;
     margin-left: 500px;;
+    background-color:black;
+}
+
+.ul-class {
+    display:flex;
+    margin-left:80%;
 }
 
 .navbar-item1,
 .navbar-item2,
 .navbar-item3 {
     margin: 0.5rem 1rem;
+    list-style-type: none;
+    margin-top:2rem;
 }
 
 .navbar-items a {
