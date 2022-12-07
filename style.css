@@ -29,8 +29,13 @@ background-color: #9BC1DC;
     flex-wrap: wrap;
     list-style-type: none;
     gap: 1rem;
-    margin-left: 500px;;
+    margin-left: 500vw;;
     background-color:black;
+    justify-content: space-between;
+    width: 70vw;
+    
+
+    
 }
 
 .ul-class {
@@ -108,5 +113,15 @@ body {
 
 .header {
     font-family: Oswald;
+}
+.contentbox {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #1D70A2;
+}
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
