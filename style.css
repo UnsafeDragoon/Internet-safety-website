@@ -123,5 +123,29 @@ body {
 p{
     color: white;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #1D70A2;
+    font-family: Oswald;
+    color: white;
+    font-weight: 200;
+    font-size: 4em;
+
+}
+
+.contentbox p {
+    margin-left: 4.33%;
+    margin-right: 4.33%;
+}
+
+.Intro-Body {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
