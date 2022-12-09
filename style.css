@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img{
+    object-fit: cover;
+}
+
 body{
 background-color: #9BC1DC;
 }
@@ -13,14 +17,15 @@ background-color: #9BC1DC;
 .navbar {
     color: black;
     background-color: #1D70A2;
-    display: flexbox;
+    display: flex;
     padding: 1rem 0;
 }
 
 .navbar-container {
-    margin: 0 auto;
+    width: 100%;
     display:flex;
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 
 .navbar-container > ul {
@@ -40,26 +45,45 @@ background-color: #9BC1DC;
 
 .ul-class {
     display:flex;
-    margin-left:80%;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    padding-right: 3
+    0px;
 }
 
 .navbar-item1,
 .navbar-item2,
 .navbar-item3 {
-    margin: 0.5rem 1rem;
+    padding: 15px;
     list-style-type: none;
-    margin-top:2rem;
+    width: 120px;
 }
 
 .navbar-items a {
     color: white;
     text-decoration: none;
     font-family: Oswald;
-    font-size: 20px;
+    font-size: 25px;
+    width: 120px;
+}
+
+@media (max-width:870px){
+    .navbar-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /*content*/
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .box1,
 .box2 {
@@ -116,9 +140,10 @@ body {
 }
 .contentbox {
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
     background-color: #1D70A2;
+    width: fit-content;
+    margin-bottom: 100px;
+    border-radius: 20px;
 }
 p{
     color: white;
@@ -140,12 +165,39 @@ h1{
 }
 
 .contentbox p {
-    margin-left: 4.33%;
-    margin-right: 4.33%;
 }
 
-.Intro-Body {
-    margin-top: auto;
-    margin-bottom: auto;
+.Intro-Body,
+.Safety-Body,
+.Matter-Body {
+    width: 180px;
+    padding: 10px;
 }
 
+.Img1:last-child,
+.Img2:last-child,
+.Img3:last-child{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.Img1:first-child,
+.Img2:first-child,
+.Img3:first-child{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.StoogesThree{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.stooge1,
+.stooge2,
+.stooge3{
+    width: calc(70%/3);
+    background-color: #1D70A2;
+    padding: 20px;
+    border-radius: 15px;
+}
