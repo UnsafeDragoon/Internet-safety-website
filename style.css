@@ -11,7 +11,8 @@ img{
 }
 
 body{
-background-color: #9BC1DC;
+background-color: #9bc1dc;
+background-image: url(images/backgrounds/classy-fabric.png);
 }
 
 .navbar {
@@ -141,7 +142,7 @@ body {
 .contentbox {
     display: flex;
     background-color: #1D70A2;
-    width: fit-content;
+    width: 50%;
     margin-bottom: 100px;
     border-radius: 20px;
 }
@@ -161,18 +162,21 @@ h1{
     color: white;
     font-weight: 200;
     font-size: 4em;
+    border-radius: 20px;
 
 }
 
 .contentbox p {
+    margin-left: 1.16%;
+    margin-right: 1.16%;
 }
 
-.Intro-Body,
+/* .Intro-Body,
 .Safety-Body,
 .Matter-Body {
     width: 180px;
     padding: 10px;
-}
+} */
 
 .Img1:last-child,
 .Img2:last-child,
@@ -200,4 +204,16 @@ h1{
     background-color: #1D70A2;
     padding: 20px;
     border-radius: 15px;
+}
+
+.Intro-Body{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contentbox h2{
+    color: white;
+    font-family: oswald;
+    font-weight: 200;
+    font-size: 3em;
 }
