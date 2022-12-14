@@ -46,6 +46,8 @@ background-image: url(images/backgrounds/classy-fabric.png);
 
 .ul-class {
     display:flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .navbar-items{
@@ -53,6 +55,7 @@ background-image: url(images/backgrounds/classy-fabric.png);
     align-items: center;
     padding-right: 3
     0px;
+    width: 70%;
 }
 
 .navbar-item1,
@@ -60,7 +63,7 @@ background-image: url(images/backgrounds/classy-fabric.png);
 .navbar-item3 {
     padding: 15px;
     list-style-type: none;
-    width: 120px;
+
 }
 
 .navbar-items a {
@@ -68,7 +71,7 @@ background-image: url(images/backgrounds/classy-fabric.png);
     text-decoration: none;
     font-family: Oswald;
     font-size: 25px;
-    width: 120px;
+    width: 2em;
 }
 
 @media (max-width:870px){
@@ -216,4 +219,11 @@ h1{
     font-family: oswald;
     font-weight: 200;
     font-size: 3em;
+    margin-left: 1.972%;
+    margin-right: 1.972%;
+
+
+}
+.navbar-items a:hover {
+    text-decoration: underline;
 }
