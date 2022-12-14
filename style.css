@@ -74,6 +74,9 @@ background-image: url(images/backgrounds/classy-fabric.png);
     width: 2em;
 }
 
+.hero-home{
+    width:100%;
+}
 
 
 /*content*/
