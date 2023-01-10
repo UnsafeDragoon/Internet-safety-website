@@ -366,13 +366,13 @@ footer ul>li a:hover{
 
         
 }
-.stooge1 p,
+/* .stooge1 p,
 .stooge2 p,
 .stooge3 p{
     padding: 10px;
     margin-bottom:35px;
     
-}
+} */
 footer ul{
     display: flex;
     flex-wrap: wrap;
